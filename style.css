@@ -1,2 +1,135 @@
-/* Adicionar aqui toda a estilização criada para sua aplicação. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: #000;
+    height: 80px;
+    border-bottom: 2px solid #32b9cd;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.titulo {
+    color: #32b9cd;
+    font-size: 32px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #32b9cd;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.version {
+    font-size: 11px;
+}
+.banner {
+    min-height: 400px;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    background-color: #e5e5e5;
+    padding: 40px 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.login {
+    flex: 1;
+    display: flex;
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-login, .card-cadastro {
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45%;
+    width: 45%;
+    padding: 15px
+}
+
+.formulario {
+    width: 90%;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.campo span {
+    color: #e6005c;
+    font-weight: bold;
+    color: #e6005c;
+}
+
+.campo input {
+    border: 1.5px solid #32b9cd;
+    border-radius: 6px;
+    padding: 0 12px;
+    outline: none;
+    width: 100%;
+}
+
+.botao {
+    background-color: #e6005c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 80px;
+    height: 35px;
+}
